@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM maven:3.6.3-openjdk:17-oracle
+FROM maven:3.6.3-openjdk-15
 
 RUN mkdir job4j_docker
 
