@@ -10,4 +10,4 @@ COPY . .
 
 RUN mvn install
 
-CMD ["java", "-jar", "target/job4j_docker-1.0.jar"]
+CMD ["java", "-jar", "target/main.jar"]
