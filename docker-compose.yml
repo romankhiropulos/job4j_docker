@@ -4,5 +4,5 @@ services:
     build:
       context: .
     environment:
-      - API=production
+      - API=job4j_docker
     container_name: job4j_docker
