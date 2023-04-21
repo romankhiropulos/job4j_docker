@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  job4j_docker:
+    build:
+      context: .
+    environment:
+      - API=production
+    container_name: job4j_docker
