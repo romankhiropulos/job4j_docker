@@ -7,6 +7,7 @@ services:
   job4j_docker:
     build:
       context: .
+      dockerfile: Dockerfile
     environment:
       - API=job4j_db
     container_name: job4j_docker
